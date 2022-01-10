@@ -21,7 +21,7 @@ body {
     padding: 10px;
 }
 
-.header > button {
+.data > button {
     margin: 5px;
     background-color: rgb(202, 192, 46);
     color:white;

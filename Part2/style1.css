@@ -18,28 +18,81 @@ body {
     display:flex;
     background: black;
     height: 50px;
-    font-size: 30px;
+    font-size: 40px;
     padding: 5px 25px;
     align-items: center;
 }
 
+.slogan > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
 .yourFeed {
     display:grid;
-    grid-template-columns: auto 450px;
+    grid-template-columns: 30% 70%;
 }
 
 .user {
     border: 2px solid black;
     margin: 20px;
     padding: 10px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .information > .contacts {
     border: 2px solid black;
     margin: 20px;
     padding: 10px;
+}
+
+.data {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 10px;
+
+}
+.data > span {
+    font-size: 20px;
+}
+
+.words > p {
+    font-size: 20px;
+}
+
+.user > p, a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.user > img {
+    width: 80px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    left: 25px;
+    margin-bottom: 50px;
+}
+
+.data > button {
+    background-color: rgb(202, 192, 46);
+    color:white;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-left: 30px;
+}
+
+.concept {
+    padding-top: 20px;
 }
