@@ -1,0 +1,45 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Balsamiq Sans';
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.title {
+    color: white;
+    display:flex;
+    background: black;
+    height: 50px;
+    font-size: 30px;
+    padding: 5px 25px;
+    align-items: center;
+}
+
+.yourFeed {
+    display:grid;
+    grid-template-columns: auto 450px;
+}
+
+.user {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information > .contacts {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}
