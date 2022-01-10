@@ -1,0 +1,33 @@
+body {
+    font-family: 'Balsamiq Sans';
+    font-size: 30px;
+}
+
+.container {
+
+}
+
+.user {
+    border: 2px solid black;
+    width: 450px;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    top: 100px;
+    left: 450px;
+}
+
+.header > span {
+    padding: 10px;
+}
+
+.header > button {
+    margin: 5px;
+    background-color: rgb(202, 192, 46);
+    color:white;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-left: 30px;
+}
