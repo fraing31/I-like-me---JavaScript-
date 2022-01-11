@@ -3,10 +3,6 @@ body {
     font-size: 30px;
 }
 
-.container {
-
-}
-
 .user {
     border: 2px solid black;
     width: 450px;
@@ -21,7 +17,7 @@ body {
     padding: 10px;
 }
 
-.data > button {
+.header > button {
     margin: 5px;
     background-color: rgb(202, 192, 46);
     color:white;
@@ -30,4 +26,20 @@ body {
     font-size: 20px;
     padding: 5px 20px;
     margin-left: 30px;
+}
+
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 10px;
+}
+
+.header > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    padding: 10px;
+    font-size: 20px;
 }
