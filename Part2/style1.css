@@ -40,6 +40,7 @@ body {
     border: 2px solid black;
     margin: 20px;
     padding: 10px;
+    height: 300px;
 }
 
 .information > .contacts {
@@ -63,7 +64,15 @@ body {
     font-size: 20px;
 }
 
-.user > p, a {
+.user > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.user > p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,8 +88,8 @@ body {
     background-color: white;
     position: relative;
     top: 30px;
-    left: 25px;
-    margin-bottom: 50px;
+    left: 45px;
+    margin-bottom: 55px;
 }
 
 .data > button {
